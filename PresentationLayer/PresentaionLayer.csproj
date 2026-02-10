@@ -12,6 +12,6 @@
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="10.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Project19 BussnessLayer\Project19_businessLayer.csproj" />
+    <ProjectReference Include="..\BusinessLayer\Project19_businessLayer.csproj" />
   </ItemGroup>
 </Project>
