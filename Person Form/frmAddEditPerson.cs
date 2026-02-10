@@ -363,7 +363,6 @@ namespace Project_19_DVDL__2nd_
                 return true;
 
             string DestinationFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "People-Images");
-
             if (!Directory.Exists(DestinationFolder))
                 Directory.CreateDirectory(DestinationFolder);
 
