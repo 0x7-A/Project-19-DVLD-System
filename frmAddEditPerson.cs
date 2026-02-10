@@ -362,7 +362,8 @@ namespace Project_19_DVDL__2nd_
             if (pbPersonImage.ImageLocation == Person.ImagePath)
                 return true;
 
-            string DestinationFolder = @"C:\DVLD_People_Images\";
+            string DestinationFolder = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "People-Images");
+
             if (!Directory.Exists(DestinationFolder))
                 Directory.CreateDirectory(DestinationFolder);
 
